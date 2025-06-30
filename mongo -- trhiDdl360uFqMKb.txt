@@ -1,0 +1,5 @@
+mongo --> trhiDdl360uFqMKb
+
+database--> TomarApi
+
+Link --> mongodb+srv://tomarmahipalsingh:<db_password>@tomarapi.qusmtzs.mongodb.net/
