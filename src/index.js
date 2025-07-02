@@ -4,7 +4,9 @@ import dotenv from "dotenv";
 import connectDB from "./database/index.js";
 
 
-dotenv.config(); // Load from .env in root
+dotenv.config({
+    path:'./env'
+}); // Load from .env in root
 
 console.log("DB URI:", process.env.MONGODB_URI); // Should NOT be undefined
 
